@@ -1,5 +1,7 @@
 # Welcome to the healthsites code base!
 
+[![Join the chat at https://gitter.im/markherringer/healthsites](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/markherringer/healthsites?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Healthsites is a framework for capturing, publishing and sharing critical
 health and sanitation related data to help make these facilities more 
 accessible and relevant to the communities they serve. Our framework does not 
@@ -29,8 +31,6 @@ Out intention is to foster wide spread usage of the data and the code that we pr
 
 # Setup instructions
 
-**Note** we provide alternative setup instructions for deployment and development under docker - see our [developer documentation](https://github.com/konektaz/healthsites/blob/develop/README-dev.md) for complete details. If you want to develop locally without using docker, follow the steps below.
-
 ### Check out the source
 
 
@@ -43,11 +43,6 @@ git clone git://github.com/konektaz/healthsites.git
 ### Install dependencies
 
 ```
-sudo apt-get install python-psycopg2 python-virtualenv
-```
-
-```
-cd healthsites
 virtualenv venv
 source venv/bin/activate
 pip install -r REQUIREMENTS-dev.txt
